@@ -6,13 +6,12 @@ import javafx.scene.control.TextField;
 
 public class Controller {
 
-    @FXML private TextField firstName;
+    @FXML private TextField twitterHandle;
 
-    private String tweet;
 
     public void handleSaySup(ActionEvent actionEvent) {
-        System.out.printf("Sup %s! %n", firstName.getText());
-        tweet = "@craigsdennis Sup? - from the Sup? App";
+        System.out.printf("Sup %s! %n", twitterHandle.getText());
+        String tweet = "@" + twitterHandle.getText() + " Sup? \n \n -- from the Sup? App";
         SupTweet.postTweet(tweet);
     }
 }

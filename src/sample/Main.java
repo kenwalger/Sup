@@ -31,7 +31,7 @@ public class Main extends Application {
 //        box.getChildren().addAll(txt, grid);
 //        root.getChildren().add(box);
         primaryStage.setTitle("Sup");
-        primaryStage.setScene(new Scene(root, 300, 275));
+        primaryStage.setScene(new Scene(root, 500, 275));
         primaryStage.show();
     }
 

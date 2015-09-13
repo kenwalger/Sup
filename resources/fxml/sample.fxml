@@ -17,15 +17,15 @@
           GridPane.halignment="CENTER"
            />
 
-    <Label text="First Name:"
+    <Label text="Who ya want to Tweet 'Sup?':"
            GridPane.rowIndex="1"
            GridPane.columnIndex="0"/>
 
-    <TextField fx:id="firstName"
+    <TextField fx:id="twitterHandle"
                GridPane.columnIndex="1"
                GridPane.rowIndex="1"/>
 
-    <Button text="Say Sup!"
+    <Button text="Tweet Sup!"
             onAction="#handleSaySup"
             GridPane.rowIndex="2"
             GridPane.columnIndex="1"
